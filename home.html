@@ -16,8 +16,38 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1 style="text-align: center; margin: 10px">Online book store</h1>
+    <div
+      style="
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+      "
+    >
+      <h1 style="text-align: center; margin: 10px">Online book store</h1>
 
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+        style="height: auto"
+      >
+        <a
+          style="height: auto"
+          href="login.html"
+          type="button"
+          class="btn btn-danger"
+          >Login</a
+        >
+        <a
+          style="height: auto"
+          href="register.html"
+          type="button"
+          class="btn btn-warning"
+          >Register</a
+        >
+      </div>
+    </div>
     <ul class="nav nav-pills nav-fill">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="/">State books</a>
